@@ -15,6 +15,7 @@ const App = () => {
       loadingElement={<div style={{ height: `100%` }} />}
     />
   );
+  console.log("dddddd");
 };
 
 render(<App />, document.getElementById('root'));
